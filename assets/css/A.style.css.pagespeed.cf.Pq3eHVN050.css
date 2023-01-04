@@ -2568,7 +2568,6 @@ hr {
 }
 .header-right-btn .header-btn2 i {
   margin-right: 15px;
-  color: #f86011;
   font-size: 18px;
 }
 .main-header {
@@ -2759,7 +2758,7 @@ hr {
   background-size: cover;
 }
 .slider-bg2 {
-  background-image: url(https://preview.colorlib.com/theme/easylo/assets/img/hero/xh2_hero2.jpg.pagespeed.ic.Z4yIHfBH2v.jpg);
+  background-image: url(../img/b1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2866,7 +2865,7 @@ hr {
   padding-top: 100px;
 }
 .slider-area .hero__caption.hero__caption2 h2 {
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 14px;
   color: #fff;
   font-weight: 700;
