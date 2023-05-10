@@ -164,70 +164,100 @@
 
 
 
-                    <form action='https://crm.zoho.in/crm/WebToLeadForm' name=WebToLeads407473000000256042 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory407473000000256042()' accept-charset='UTF-8'>
+                    <form action='https://crm.zoho.in/crm/WebToLeadForm' name=WebToLeads407473000000244659 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory407473000000244659()' accept-charset='UTF-8' id="applynow">
                       <input type='text' style='display:none;' name='xnQsjsdp' value='226260fedf5402676c60581b4a97c9f54defb6ab92fd0b9c44df68b489864b20'></input> 
                       <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
-                      <input type='text' style='display:none;' name='xmIwtLD' value='c91ce0236f9bd9a46a2b2a5dacda2a7c4e1cbcb73551573335595a5cc030b68d'></input> 
+                      <input type='text' style='display:none;' name='xmIwtLD' value='c91ce0236f9bd9a46a2b2a5dacda2a7ced37875629808c9215722fb51c982f96'></input> 
                       <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
                       <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;theenglishowl.com&#x2f;' > </input>
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="single-form">
-                            <div class="select-option mb-15">
+                                      <div class="row">
+                                        <div class="col-lg-12">
+                                          <div class="single-form">
+                                            <div class="select-option mb-15">
+                
+                                              <label> Your Name</label>
+                     
+                                              <input type='text' id='Last_Name' name='Last Name' maxlength='80' placeholder="First Name"
+                                              onfocus="this.placeholder = ''"
+                                              onblur="this.placeholder = 'First Name'"
+                                              required
+                                              class="single-input"></input>
+                
+                                      
+                                                    
+                                                    <input type='text' id='Designation' name='Designation' maxlength='100' value='CLAT' hidden></input>
+                                                    
+                                                    
+                                             
+                                           
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <div class="single-form">
+                                            <div class="select-option mb-15">
+                                              <label>Email</label>
+                
+                                              <input type='email' ftype='email' id='Email' name='Email' maxlength='100'  placeholder="Email address"
+                                              onfocus="this.placeholder = ''"
+                                              onblur="this.placeholder = 'Email address'"
+                                              required
+                                              class="single-input"></input>
+                
+                
+                                          
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                          <div class="single-form">
+                                            <div class="select-option mb-15">
+                                              <label>Phone</label>
+                
+                                              <input type='number' step="1" minlength="10" id='Mobile' name='Mobile' maxlength='30' placeholder="Mobile Number"
+                                              onfocus="this.placeholder = ''"
+                                              onblur="this.placeholder = 'Last Name'"
+                                              required
+                                              class="single-input"></input>
+                
+                                        
+                                            </div>
+                                          </div>
+                                        </div>
 
-                              <label> Your Name</label>
-     
-                              <input type='text' id='Last_Name' name='Last Name' maxlength='80' placeholder="First Name"
-                              onfocus="this.placeholder = ''"
-                              onblur="this.placeholder = 'First Name'"
-                              required
-                              class="single-input"></input>
+                                        <div class="col-lg-12">
+                                          <div class="single-form">
+                                            <div class="select-option mb-15">
+                                              <label>Exam</label>
+                
+                                              <select id='designationSelect' onchange="updateDesignation(this.value)" class="single-input mb-15">
+                                                <option value='CLAT'>CLAT</option>
+                                                <option value='AILET'>AILET</option>
+                                                <option value='MHCET'>MHCET</option>
+                                                <option value='DU LLB'>DU LLB</option>
+                                                <option value='CULEE'>CULEE</option>
+                                                <option value='SLAT'>SLAT</option>
+                                                
+                                              </select>
+                
+                                        
+                                            </div>
+                                          </div>
+                                        </div>
 
-                              <input type='text' id='Designation' name='Designation' maxlength='100' value='CLAT' hidden></input>
-                             
-                           
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-12">
-                          <div class="single-form">
-                            <div class="select-option mb-15">
-                              <label>Email</label>
-
-                              <input type='email' ftype='email' id='Email' name='Email' maxlength='100'  placeholder="Email address"
-                              onfocus="this.placeholder = ''"
-                              onblur="this.placeholder = 'Email address'"
-                              required
-                              class="single-input"></input>
+                         
 
 
-                          
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-12">
-                          <div class="single-form">
-                            <div class="select-option mb-15">
-                              <label>Phone</label>
 
-                              <input type='number' step="1" minlength="10" id='Mobile' name='Mobile' maxlength='30' placeholder="Mobile Number"
-                              onfocus="this.placeholder = ''"
-                              onblur="this.placeholder = 'Last Name'"
-                              required
-                              class="single-input"></input>
 
-                        
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-12">
-                          <div class="submit-info text-center">
-                            <button class="submit-btn2 mb-15" type="submit">Apply Now</button>
-                            <p>Our Expert Counsellor will call you shortly</p>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
+                                        <div class="col-lg-12">
+                                          <div class="submit-info text-center">
+                                            <button class="submit-btn2 mb-15" type="submit">Apply Now</button>
+                                            <p>Our Expert Counsellor will call you shortly</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </form>
                   </div>
                 </div>
               </div>
@@ -235,6 +265,13 @@
           </div>
         </div>
       </div>
+
+      <!-- JavaScript code -->
+<script>
+  function updateDesignation(value) {
+    document.getElementById('Designation').value = value;
+  }
+</script>
 
       <section class="our-services section-padding">
         <div class="container">
@@ -273,7 +310,6 @@
         </div>
       </section>
 
-    
 
       <div class="testimonial-area">
         <div class="container">
